@@ -1,0 +1,346 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+@font-face {
+  font-family: "Myriad Pro Black";
+  src: url("./fonts/MyriadPro/MyriadPro-Black.eot") format("embedded-opentype");
+  src: url("./fonts/MyriadPro/MyriadPro-Black.ttf") format("truetype");
+  src: url("./fonts/MyriadPro/MyriadPro-Black.woff") format("woff"); }
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("./fonts/MyriadPro/MyriadPro-Bold.eot") format("embedded-opentype");
+  src: url("./fonts/MyriadPro/MyriadPro-Bold.ttf") format("truetype");
+  src: url("./fonts/MyriadPro/MyriadPro-Bold.woff") format("woff"); }
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("./fonts/MyriadPro/MyriadPro-Regular.eot") format("embedded-opentype");
+  src: url("./fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
+  src: url("./fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"); }
+html {
+  font-size: 12px; }
+
+.container {
+  width: 278px;
+  margin: 0 auto; }
+
+.header {
+  position: relative; }
+
+.banner {
+  min-height: 277px;
+  background-image: url("../img/bg1 3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.25rem; }
+
+.header__button {
+  display: block; }
+
+.header__nav {
+  display: none; }
+
+.main h1 {
+  font-family: "Myriad Pro Black";
+  font-size: 2.666rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 2rem; }
+.main p {
+  font-family: "Myriad Pro Black";
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1.25rem; }
+.main a {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Myriad Pro Bold";
+  font-size: 1.33rem;
+  text-align: center;
+  color: white;
+  background-color: #008DCD;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-top: 1.75rem;
+  margin-bottom: 2.25rem;
+  border-radius: 24px; }
+
+.description {
+  background-color: #F7F7F7; }
+
+.description__content {
+  padding-bottom: 2.25rem; }
+  .description__content img {
+    margin-top: 1.75rem; }
+  .description__content h1 {
+    font-family: "Myriad Pro Black";
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 2rem; }
+  .description__content p {
+    font-family: "Myriad Pro Regular";
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1.25rem; }
+  .description__content a {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Myriad Pro Bold";
+    font-size: 1.33rem;
+    text-align: center;
+    color: white;
+    background-color: #008DCD;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 1.75rem;
+    border-radius: 24px; }
+
+.steps {
+  margin-bottom: 1.75rem; }
+
+.steps__block img {
+  margin-top: 2.25rem; }
+.steps__block h1 {
+  font-family: "Myriad Pro Bold";
+  font-size: 2.16rem;
+  text-align: left;
+  margin-top: 2.25rem; }
+.steps__block p {
+  font-family: "Myriad Pro Regular";
+  font-size: 1.16rem;
+  text-align: left;
+  margin-top: 0.5rem; }
+
+.responsibility {
+  background-color: #F7F7F7; }
+
+.responsibility__content {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .responsibility__content h1 {
+    font-family: "Myriad Pro Black";
+    font-size: 1.5rem;
+    text-align: left; }
+  .responsibility__content a {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Myriad Pro Bold";
+    font-size: 1.33rem;
+    text-align: center;
+    color: white;
+    background-color: #008DCD;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 1.75rem;
+    border-radius: 24px; }
+
+.back-call {
+  background-color: #008DCD; }
+
+.back-call__content {
+  padding-top: 2.66rem; }
+  .back-call__content h1 {
+    font-family: "Myriad Pro Black";
+    font-size: 2.33rem;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase; }
+  .back-call__content p {
+    font-family: "Myriad Pro Regular";
+    font-size: 1.16rem;
+    color: #ffffff;
+    line-height: 13px;
+    text-align: left;
+    margin-top: 1rem; }
+
+.back-call__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .back-call__form label {
+    color: #ffffff;
+    font-family: "Myriad Pro Regular";
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start; }
+
+.back-call__tel {
+  display: inline-block;
+  padding: 17px 24px;
+  width: 230px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  background-color: #008DCD;
+  color: #ffffff;
+  font-family: "Myriad Pro Regular";
+  font-size: 16px;
+  text-align: left;
+  margin-top: 1.16rem; }
+
+.back-call__tel::placeholder {
+  color: #ffffff; }
+
+.back-call__button {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Myriad Pro Bold";
+  font-size: 1.33rem;
+  text-align: center;
+  color: #363636;
+  background-color: #FFCC00;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+  border-radius: 24px; }
+
+.checkbox__content {
+  position: relative;
+  padding-bottom: 10px; }
+
+.back-call__checkbox {
+  border: 1px solid #ffffff;
+  background-color: #008DCD;
+  margin: 0 8px;
+  position: absolute;
+  left: -9999px; }
+
+.back-call__checkbox + label:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ffffff;
+  background-color: #008DCD; }
+
+.back-call__checkbox + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  left: -19px;
+  top: 1px;
+  width: 8px;
+  height: 3px;
+  border-radius: 1px;
+  border-left: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.back-call__checkbox:not(:checked) + label:after, .back-call__checkbox:not(:checked) + label:after {
+  opacity: 0; }
+
+.back-call__checkbox:checked + label:after, .back-call__checkbox:checked + label:after {
+  opacity: 1; }
+
+.reviews__content h1 {
+  font-family: "Myriad Pro Bold";
+  font-size: 28px;
+  text-align: left; }
+
+.reviews {
+  padding: 1.75rem; }
+
+.reviews__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem; }
+
+.review:nth-child(2) {
+  display: none; }
+
+.review__left-arrow {
+  color: #C4C4C4; }
+
+.review__right-arrow {
+  color: #C4C4C4; }
+
+.review__info {
+  display: flex; }
+
+.review__photo {
+  margin-right: 15px;
+  margin-top: 5px; }
+
+.review__description h2 {
+  font-family: "Myriad Pro Regular";
+  font-size: 2.16rem;
+  text-align: left; }
+.review__description h3 {
+  font-family: "Myriad Pro Regular";
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 6px; }
+.review__description p {
+  font-family: "Myriad Pro Regular";
+  font-size: 0.83rem;
+  text-align: left;
+  margin-top: 4px; }
+
+.review__comment {
+  font-family: "Myriad Pro Regular";
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 1.16rem; }
+
+.advantages {
+  background-color: #F7F7F7; }
+
+.advantages__content {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem; }
+  .advantages__content h1 {
+    font-family: "Myriad Pro Black";
+    font-size: 2.3rem;
+    text-align: left; }
+
+.advantages__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.advantages__item {
+  width: 86px;
+  margin-top: 1.5rem; }
+  .advantages__item p {
+    font-family: "Myriad Pro Regular";
+    font-size: 0.86rem;
+    text-align: center;
+    margin-top: 10px; }
+
+.advantages__icon {
+  width: 86px;
+  height: 86px;
+  background-color: #ffffff;
+  border-radius: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
