@@ -66,11 +66,17 @@ html
     text-align: center
     color: white
     background-color: $site-color
+    border: 1px solid $site-color
     padding-top: 17px
     padding-bottom: 17px
     margin-top: 1.75rem
     margin-bottom: 2.25rem
     border-radius: 24px
+    transition: color 0.5s, background-color 0.5s
+  a:hover
+    color: $site-color
+    background-color: white
+
 
 .description
   background-color: #F7F7F7
@@ -97,10 +103,16 @@ html
     text-align: center
     color: white
     background-color: $site-color
+    border: 1px solid $site-color
     padding-top: 17px
     padding-bottom: 17px
     margin-top: 1.75rem
+    margin-bottom: 2.25rem
     border-radius: 24px
+    transition: color 0.5s, background-color 0.5s
+  a:hover
+    color: $site-color
+    background-color: white
 
 .steps
   margin-bottom: 1.75rem
@@ -137,10 +149,16 @@ html
     text-align: center
     color: white
     background-color: $site-color
+    border: 1px solid $site-color
     padding-top: 17px
     padding-bottom: 17px
     margin-top: 1.75rem
+    margin-bottom: 2.25rem
     border-radius: 24px
+    transition: color 0.5s, background-color 0.5s
+  a:hover
+    color: $site-color
+    background-color: white
 
 .back-call
   background-color: $site-color
@@ -200,11 +218,17 @@ html
   text-align: center
   color: #363636
   background-color: #FFCC00
+  border: 1px solid #FFCC00
   padding-top: 17px
   padding-bottom: 17px
   margin-top: 1.75rem
   margin-bottom: 0.6rem
   border-radius: 24px
+  transition: color 0.5s, background-color 0.5s
+
+.back-call__button:hover
+    color: #FFCC00
+    background-color: $site-color
 
 .checkbox__content
   position: relative
@@ -253,14 +277,14 @@ html
 .back-call__checkbox:checked + label:after, .back-call__checkbox:checked + label:after
   opacity: 1
 
+.reviews
+  padding: 1.75rem
+
 .reviews__content
   h1
     font-family: "Myriad Pro Bold"
     font-size: 28px
     text-align: left
-
-.reviews
-  padding: 1.75rem
 
 .reviews__box
   display: flex
@@ -268,14 +292,37 @@ html
   justify-content: center
   margin-top: 1rem
 
+.review
+  width: 230px
+
 .review:nth-child(2)
   display: none
 
 .review__left-arrow
-  color: #C4C4C4
+  margin-top: 25px
+  width: 12px
+  height: 12px
+  border-left: 2px solid #C4C4C4
+  border-bottom: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.review__left-arrow:hover
+  border-color: $site-color
 
 .review__right-arrow
-  color: #C4C4C4
+  margin-top: 25px
+  width: 12px
+  height: 12px
+  border-right: 2px solid #C4C4C4
+  border-top: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.review__right-arrow:hover
+  border-color: $site-color
 
 .review__info
   display: flex
@@ -340,3 +387,315 @@ html
   justify-content: center
   align-items: center
 
+.warranties
+  padding: 1.75rem
+
+.warranties__content
+  h1
+    font-family: "Myriad Pro Bold"
+    font-size: 28px
+    text-align: left
+
+.warranties__box
+  display: flex
+  justify-content: center
+  margin-top: 1rem
+
+.warranties__left-arrow
+  margin-top: 25px
+  width: 12px
+  height: 12px
+  border-left: 2px solid #C4C4C4
+  border-bottom: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.warranties__left-arrow:hover
+  border-color: $site-color
+
+.warranties__right-arrow
+  margin-top: 25px
+  width: 12px
+  height: 12px
+  border-right: 2px solid #C4C4C4
+  border-top: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.warranties__right-arrow:hover
+  border-color: $site-color
+
+.warranty
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 230px
+
+.warranty:nth-child(2)
+  display: none
+
+.warranty:nth-child(3)
+  display: none
+
+.warranty__box
+  display: flex
+  flex-direction: column
+
+.warranty__top
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.warranty__icon
+  width: 62px
+  height: 62px
+  background-color: #F7F7F7
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-right: 10px
+
+.warranty__description
+  h2
+    font-family: "Myriad Pro Bold"
+    font-size: 1.33rem
+    text-align: left
+    width: 160px
+
+.warranty__bot
+  p
+    font-family: "Myriad Pro Regular"
+    font-size: 1rem
+    text-align: left
+    margin-top: 1.16rem
+  a
+    display: block
+    text-transform: uppercase
+    font-family: "Myriad Pro Bold"
+    font-size: 1.33rem
+    text-align: center
+    color: white
+    background-color: $site-color
+    border: 1px solid $site-color
+    padding-top: 17px
+    padding-bottom: 17px
+    margin-top: 1.75rem
+    margin-bottom: 2.25rem
+    border-radius: 24px
+    transition: color 0.5s, background-color 0.5s
+  a:hover
+    color: $site-color
+    background-color: white
+
+.questions
+  background-color: #D2ECF7
+  padding: 1.75rem
+
+.questions__content
+  h1
+    font-family: "Myriad Pro Bold"
+    font-size: 28px
+    text-align: left
+
+.questions__box
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  margin-top: 1rem
+
+.question
+  background-color: #ffffff
+  border-radius: 32px
+  display: inline-flex
+  justify-content: space-between
+  align-items: center
+  padding: 0 24px
+  margin-top: 10px
+  height: 80px
+  p
+    width: 200px
+    font-family: "Myriad Pro Regular"
+    font-size: 1.13rem
+    text-align: left
+    margin-right: 12px
+
+.question__arrow
+  width: 8px
+  height: 8px
+  border-bottom: 2px solid #008DCD
+  border-left: 2px solid #008DCD
+  box-sizing: border-box
+  transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.question__arrow:hover
+  border-color: #C4C4C4
+
+.partners
+  padding: 1.5rem 0
+  display: flex
+  align-items: center
+
+.partners__left-arrow
+  width: 12px
+  height: 12px
+  border-left: 2px solid #C4C4C4
+  border-bottom: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.partners__left-arrow:hover
+  border-color: $site-color
+
+.partners__right-arrow
+  width: 12px
+  height: 12px
+  border-right: 2px solid #C4C4C4
+  border-top: 2px solid #C4C4C4
+  box-sizing: border-box
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+  transition: border-color 0.5s
+
+.partners__right-arrow:hover
+  border-color: $site-color
+
+.partners__content
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 236px
+
+.footer
+  background-color: #E9E9E9
+  padding-bottom: 10px
+
+.footer__back-call
+  padding-top: 1.5rem
+  h1
+    font-family: "Myriad Pro Bold"
+    font-size: 1.5rem
+    color: #000000
+    text-align: left
+    text-transform: uppercase
+
+.footer__back-call__form
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+  label
+    color: #9E9E9E
+    font-family: "Myriad Pro Regular"
+    font-size: 10px
+    text-align: left
+    display: flex
+    align-items: center
+    justify-content: start
+
+.footer__back-call__tel
+  display: inline-block
+  padding: 14px 24px
+  width: 230px
+  border: 1px solid #363636
+  border-radius: 24px
+  background-color: #E9E9E9
+  color: #363636
+  font-family: "Myriad Pro Regular"
+  font-size: 16px
+  text-align: left
+  margin-top: 1.16rem
+
+.footer__back-call__tel::placeholder
+  color: #363636
+
+.footer__back-call__button
+  width: 100%
+  text-transform: uppercase
+  font-family: "Myriad Pro Bold"
+  font-size: 1.33rem
+  text-align: center
+  color: white
+  background-color: $site-color
+  border: 1px solid $site-color
+  padding-top: 14px
+  padding-bottom: 14px
+  margin-top: 10px
+  margin-bottom: 10px
+  border-radius: 24px
+  transition: color 0.5s, background-color 0.5s
+
+.footer__back-call__button:hover
+  color: $site-color
+  background-color: #E9E9E9
+
+.footer__checkbox__content
+  position: relative
+  padding-bottom: 10px
+
+.footer__back-call__checkbox
+  border: 1px solid #E9E9E9
+  background-color: #E9E9E9
+  margin: 0 8px
+  position: absolute
+  left: -9999px
+
+.footer__back-call__checkbox+label:before
+  content: ""
+  position: absolute
+  left: -20px
+  top: 0
+  width: 10px
+  height: 10px
+  border: 1px solid #9E9E9E
+  background-color: #E9E9E9
+
+.footer__back-call__checkbox+label:after
+  content: ""
+  position: absolute
+  -webkit-transition: all 0.2s ease
+  -moz-transition: all 0.2s ease
+  -o-transition: all 0.2s ease
+  transition: all 0.2s ease
+  left: -19px
+  top: 1px
+  width: 8px
+  height: 3px
+  border-radius: 1px
+  border-left: 4px solid #9E9E9E
+  border-bottom: 4px solid #9E9E9E
+  -webkit-transform: rotate(-45deg)
+  -moz-transform: rotate(-45deg)
+  -o-transform: rotate(-45deg)
+  -ms-transform: rotate(-45deg)
+  transform: rotate(-45deg)
+
+.footer__back-call__checkbox:not(:checked) + label:after, .footer__back-call__checkbox:not(:checked) + label:after
+  opacity: 0
+
+.footer__back-call__checkbox:checked + label:after, .footer__back-call__checkbox:checked + label:after
+  opacity: 1
+
+.footer__hr
+  height: 1px
+  background-color: #9E9E9E
+
+.footer__menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 10px
+  margin-bottom: 10px
+
+.footer__copyright
+  display: flex
+  justify-content: space-between
+  margin-top: 18px
+  p
+    font-family: "Myriad Pro Regular"
+    font-size: 0.83rem
+    text-align: center
