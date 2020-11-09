@@ -38,7 +38,7 @@ html {
 
 .banner {
   min-height: 277px;
-  background-image: url("../img/bg1 3.jpg");
+  background-image: url("../img/bg1_3.jpg");
   background-size: cover;
   background-position: center; }
 
@@ -53,18 +53,18 @@ html {
 .header__nav {
   display: none; }
 
-.main h1 {
+.header__main h1 {
   font-family: "Myriad Pro Black";
   font-size: 2.666rem;
   font-weight: 600;
   text-align: left;
   margin-top: 2rem; }
-.main p {
+.header__main p {
   font-family: "Myriad Pro Black";
   font-size: 2rem;
   text-align: left;
   margin-top: 1.25rem; }
-.main a {
+.header__main a {
   display: block;
   text-transform: uppercase;
   font-family: "Myriad Pro Bold";
@@ -79,17 +79,22 @@ html {
   margin-bottom: 2.25rem;
   border-radius: 24px;
   transition: color 0.5s, background-color 0.5s; }
-.main a:hover {
+.header__main a:hover {
   color: #008DCD;
   background-color: white; }
+
+.banner__main {
+  display: none; }
 
 .description {
   background-color: #F7F7F7; }
 
 .description__content {
-  padding-bottom: 2.25rem; }
+  padding-bottom: 17px; }
   .description__content img {
-    margin-top: 1.75rem; }
+    margin-top: 1.75rem;
+    width: 278px;
+    height: 142px; }
   .description__content h1 {
     font-family: "Myriad Pro Black";
     font-size: 1.5rem;
@@ -112,12 +117,11 @@ html {
     padding-top: 17px;
     padding-bottom: 17px;
     margin-top: 1.75rem;
-    margin-bottom: 2.25rem;
     border-radius: 24px;
     transition: color 0.5s, background-color 0.5s; }
   .description__content a:hover {
     color: #008DCD;
-    background-color: white; }
+    background-color: #F7F7F7; }
 
 .steps {
   margin-bottom: 1.75rem; }
@@ -287,7 +291,8 @@ html {
 .reviews__content h1 {
   font-family: "Myriad Pro Bold";
   font-size: 28px;
-  text-align: left; }
+  text-align: left;
+  text-transform: uppercase; }
 
 .reviews__box {
   display: flex;
@@ -458,6 +463,9 @@ html {
   align-items: center;
   justify-content: center;
   margin-right: 10px; }
+  .warranty__icon img {
+    width: 28px;
+    height: 26px; }
 
 .warranty__description h2 {
   font-family: "Myriad Pro Bold";
@@ -567,6 +575,10 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 236px; }
+  .partners__content img:nth-child(7) {
+    display: none; }
+  .partners__content img:nth-child(8) {
+    display: none; }
 
 .footer {
   background-color: #E9E9E9;
@@ -697,5 +709,306 @@ html {
     font-family: "Myriad Pro Regular";
     font-size: 0.83rem;
     text-align: center; }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 700px; }
+
+  .banner {
+    background-image: url("../img/bg2_3.jpg");
+    padding-bottom: 60px; }
+
+  .nav {
+    display: flex;
+    align-items: center; }
+
+  .header__button {
+    display: none; }
+
+  .header__nav {
+    display: flex; }
+    .header__nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+
+  .header__link a {
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    transition: color 0.5s; }
+  .header__link a:hover {
+    color: #008DCD; }
+
+  .banner__main {
+    display: block; }
+    .banner__main h1 {
+      width: 400px;
+      font-family: "Myriad Pro Black";
+      font-size: 44px;
+      text-align: left;
+      margin-top: 54px;
+      color: white; }
+    .banner__main p {
+      font-family: "Myriad Pro Black";
+      font-size: 28px;
+      text-align: left;
+      margin-top: 1.25rem;
+      color: white; }
+    .banner__main a {
+      width: 280px;
+      display: block;
+      text-transform: uppercase;
+      font-family: "Myriad Pro Bold";
+      font-size: 1.33rem;
+      text-align: center;
+      color: white;
+      background-color: #008DCD;
+      border: 1px solid #008DCD;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      margin-top: 1.75rem;
+      border-radius: 24px;
+      transition: color 0.5s, background-color 0.5s; }
+    .banner__main a:hover {
+      color: #008DCD;
+      background-color: transparent; }
+
+  .header__main {
+    display: none; }
+
+  .footer__logo img {
+    width: 100px;
+    height: 35px; }
+
+  .description__content {
+    position: relative;
+    padding-bottom: 38px;
+    display: flex;
+    flex-flow: wrap; }
+    .description__content img {
+      order: 2;
+      margin-top: 1.75rem;
+      width: 400px;
+      height: 200px; }
+    .description__content h1 {
+      order: 0;
+      font-family: "Myriad Pro Black";
+      font-size: 36px;
+      text-align: left; }
+    .description__content p {
+      order: 1;
+      width: 280px;
+      font-family: "Myriad Pro Regular";
+      font-size: 14px;
+      text-align: left;
+      margin-top: 20px;
+      margin-right: 10px; }
+    .description__content a {
+      position: absolute;
+      top: 200px;
+      order: 3;
+      width: 278px;
+      display: block;
+      text-transform: uppercase;
+      font-family: "Myriad Pro Bold";
+      font-size: 1.33rem;
+      text-align: center;
+      color: white;
+      background-color: #008DCD;
+      border: 1px solid #008DCD;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      border-radius: 24px;
+      transition: color 0.5s, background-color 0.5s; }
+    .description__content a:hover {
+      color: #008DCD;
+      background-color: #F7F7F7; }
+
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 66px; }
+
+  .steps__block {
+    width: 280px;
+    margin-top: 15px; }
+    .steps__block h1 {
+      font-family: "Myriad Pro Bold";
+      font-size: 26px;
+      text-align: left;
+      margin-top: 26px; }
+    .steps__block p {
+      font-family: "Myriad Pro Regular";
+      font-size: 16px;
+      text-align: left;
+      margin-top: 16px; }
+
+  .responsibility__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .responsibility__content h1 {
+      font-family: "Myriad Pro Black";
+      font-size: 28px;
+      text-align: left;
+      width: 340px; }
+    .responsibility__content a {
+      width: 280px; }
+
+  .back-call__content {
+    display: flex;
+    justify-content: space-between; }
+
+  .back-call__box {
+    width: 280px; }
+
+  .back-call__form {
+    width: 280px; }
+    .back-call__form input {
+      margin-top: 0; }
+
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+  .reviews__content h1 {
+    font-family: "Myriad Pro Black";
+    font-size: 36px;
+    text-align: left;
+    text-transform: uppercase; }
+
+  .reviews__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+
+  .review {
+    width: 280px; }
+
+  .review:nth-child(2) {
+    display: block; }
+
+  .review__comment {
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+    text-align: left; }
+
+  .advantages__content h1 {
+    font-size: 36px; }
+
+  .advantages__item p {
+    font-size: 14px; }
+
+  .warranties__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+
+  .warranties__content h1 {
+    font-size: 36px; }
+
+  .warranty {
+    width: 220px;
+    display: flex;
+    align-items: start; }
+
+  .warranty:nth-child(2) {
+    display: block; }
+
+  .warranty:nth-child(3) {
+    display: block; }
+
+  .warranty__top {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+
+  .warranty__icon {
+    width: 100px;
+    height: 100px; }
+    .warranty__icon img {
+      width: 44px;
+      height: 42px; }
+
+  .warranty__description h2 {
+    width: 220px;
+    font-family: "Myriad Pro Bold";
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: -0.2px; }
+
+  .warranty__bot p {
+    font-size: 12px;
+    line-height: 14px; }
+  .warranty__bot a {
+    margin-bottom: 0; }
+
+  .warranties__left-arrow {
+    display: none; }
+
+  .warranties__right-arrow {
+    display: none; }
+
+  .questions__content h1 {
+    font-size: 36px; }
+
+  .question {
+    width: 652px;
+    height: 48px; }
+    .question p {
+      width: 600px;
+      font-size: 16px; }
+
+  .question__arrow {
+    width: 10px;
+    height: 10px; }
+
+  .partners {
+    display: flex;
+    justify-content: space-between; }
+
+  .partners__content {
+    width: inherit;
+    display: flex;
+    justify-content: space-around; }
+    .partners__content img:nth-child(7) {
+      display: block; }
+    .partners__content img:nth-child(8) {
+      display: block; }
+
+  .footer__back-call {
+    display: flex;
+    justify-content: space-between; }
+    .footer__back-call h1 {
+      font-size: 20px;
+      padding-top: 24px; }
+
+  .footer__back-call__form {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: initial;
+    flex-wrap: wrap; }
+    .footer__back-call__form input {
+      width: 170px;
+      margin-top: 0; }
+    .footer__back-call__form a {
+      width: 220px; }
+
+  .footer__checkbox__content {
+    margin-left: 30px; }
+
+  .footer__link a {
+    color: #000000; }
+
+  .footer__copyright p {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */
