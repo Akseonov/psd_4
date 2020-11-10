@@ -40,6 +40,11 @@ html
   justify-content: space-between
   padding-top: 2.25rem
 
+.header__logo
+  img
+    width: 100px
+    height: 29px
+
 .header__button
   display: block
 
@@ -386,7 +391,7 @@ html
   width: 86px
   height: 86px
   background-color: #ffffff
-  border-radius: 43px
+  border-radius: 50%
   display: flex
   justify-content: center
   align-items: center
@@ -953,11 +958,17 @@ html
       letter-spacing: -0.2px
 
   .warranty__bot
+    height: 170px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
     p
       font-size: 12px
-      line-height: 14px
     a
+      padding-top: 13px
+      padding-bottom: 13px
       margin-bottom: 0
+      margin-top: 0
 
   .warranties__left-arrow
     display: none
@@ -1022,3 +1033,273 @@ html
   .footer__copyright
     p
       font-size: 12px
+
+@media screen and (min-width: 1440px)
+  .container
+    width: 1160px
+
+  .header__logo
+    img
+      width: 160px
+      height: 46px
+
+  .header__link
+    a
+      margin-left: 30px
+      margin-right: 30px
+      font-size: 18px
+
+  .banner__main
+    margin-bottom: 150px
+    h1
+      width: 748px
+      font-size: 48px
+      margin-top: 80px
+    p
+      font-size: 36px
+    a
+      width: 260px
+
+  .description__content
+    padding-bottom: 38px
+    display: flex
+    flex-flow: wrap
+    position: relative
+    img
+      order: 0
+      margin-top: 60px
+      width: 660px
+      height: 336px
+    h1
+      position: absolute
+      left: 757px
+      top: 90px
+      order: 1
+      font-family: "Myriad Pro Black"
+      font-size: 36px
+      text-align: left
+      width: 460px
+    p
+      position: absolute
+      left: 757px
+      top: 200px
+      order: 2
+      width: 440px
+      font-family: "Myriad Pro Regular"
+      font-size: 14px
+      text-align: left
+    a
+      position: absolute
+      left: 757px
+      top: 305px
+      order: 3
+      width: 360px
+      display: block
+      text-transform: uppercase
+      font-family: "Myriad Pro Bold"
+      font-size: 16px
+      color: white
+      background-color: $site-color
+      border: 1px solid $site-color
+      padding-top: 17px
+      padding-bottom: 17px
+      border-radius: 24px
+      transition: color 0.5s, background-color 0.5s
+    a:hover
+      color: $site-color
+      background-color: #F7F7F7
+
+  .steps__block
+    width: 462px
+    img
+      width: 462px
+      height: 312px
+    h1
+      font-size: 30px
+    p
+      font-size: 20px
+
+  .responsibility__content
+    h1
+      width: 720px
+    a
+      width: 360px
+
+  .back-call__content
+    padding-top: 73px
+    padding-bottom: 39px
+
+  .back-call__box
+    width: 740px
+    h1
+      font-size: 48px
+    p
+      font-size: 24px
+
+  .back-call__form
+    width: 360px
+    input
+      width: 310px
+      padding-top: 13.5px
+      padding-bottom: 13.5px
+    a
+      margin-top: 10px
+      font-size: 16px
+      padding-top: 13.5px
+      padding-bottom: 13.5px
+
+  .reviews
+    padding-bottom: 70px
+
+  .reviews__content
+    h1
+      font-size: 36px
+
+  .review
+    width: 460px
+
+  .review__info
+    width: 460px
+
+  .review__photo
+    width: 150px
+    height: 150px
+    img
+      width: 150px
+      height: 150px
+
+  .review__description
+    h2
+      font-size: 32px
+    h3
+      font-size: 20px
+    p
+      font-size: 16px
+
+  .review__comment
+    width: 460px
+    font-size: 16px
+
+  .review__left-arrow
+    width: 20px
+    height: 20px
+
+  .review__right-arrow
+    width: 20px
+    height: 20px
+
+  .advantages__content
+    padding-top: 100px
+    padding-bottom: 100px
+    h1
+      font-size: 36px
+
+  .advantages__item
+    margin-top: 25px
+    p
+      font-size: 18px
+      width: 160px
+
+  .advantages__icon
+    width: 160px
+    height: 160px
+    img
+      width: 70px
+      height: auto
+
+  .warranties
+    padding-top: 80px
+    padding-bottom: 64px
+
+  .warranties__content
+    h1
+      font-size: 36px
+
+  .warranties__box
+    margin-bottom: 0
+    margin-top: 30px
+
+  .warranty
+    width: 360px
+
+  .warranty__icon
+    width: 160px
+    height: 160px
+    img
+      width: 75px
+      height: auto
+
+  .warranty__description
+    h2
+      margin-top: 32px
+      font-size: 30px
+      width: 100%
+
+  .warranty__bot
+    height: 170px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    p
+      font-size: 16px
+      line-height: 19px
+    a
+      padding-top: 13px
+      padding-bottom: 13px
+
+  .questions
+    padding-top: 64px
+    padding-bottom: 60px
+
+  .questions__box
+    margin-top: 24px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    flex-direction: initial
+
+  .question
+    width: 512px
+    height: 64px
+
+  .partners
+    padding-top: 55px
+    padding-bottom: 55px
+
+  .partners__left-arrow
+    width: 20px
+    height: 20px
+
+  .partners__right-arrow
+    width: 20px
+    height: 20px
+
+  .partners__content
+    img
+      width: 94px
+      height: auto
+
+  .footer__back-call
+    h1
+      font-size: 30px
+
+  .footer__back-call__form
+    width: 750px
+    input
+      width: 312px
+    a
+      width: 360px
+
+  .footer__logo
+    img
+      width: 160px
+      height: 48px
+
+  .footer__link
+    a
+      margin-left: 33px
+      margin-right: 33px
+
+  .footer__copyright
+    p
+      font-size: 16px
