@@ -30,7 +30,8 @@
   src: url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"); }
 
 html {
-  font-size: 12px; }
+  font-size: 12px;
+  scroll-behavior: smooth; }
 
 .container {
   width: 278px;
