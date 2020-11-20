@@ -22,6 +22,18 @@
 html
   font-size: 12px
   scroll-behavior: smooth
+  height: 100%
+
+body
+  height: 100%
+
+.wrapper
+  min-height: 100%
+  display: flex
+  flex-direction: column
+
+.top
+  flex-grow: 1
 
 .container
   width: 278px
@@ -298,6 +310,10 @@ html
   justify-content: center
   margin-top: 1rem
 
+.reviews__box__content
+  display: flex
+  justify-content: space-between
+  
 .review
   width: 230px
 
@@ -306,29 +322,23 @@ html
 
 .review__left-arrow
   margin-top: 25px
-  width: 12px
-  height: 12px
-  border-left: 2px solid #C4C4C4
-  border-bottom: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  margin-right: 10px
+  font-size: 20px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .review__left-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .review__right-arrow
+  margin-left: 10px
   margin-top: 25px
-  width: 12px
-  height: 12px
-  border-right: 2px solid #C4C4C4
-  border-top: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 20px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .review__right-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .review__info
   display: flex
@@ -411,30 +421,24 @@ html
   margin-top: 1rem
 
 .warranties__left-arrow
+  margin-right: 10px
   margin-top: 25px
-  width: 12px
-  height: 12px
-  border-left: 2px solid #C4C4C4
-  border-bottom: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 20px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .warranties__left-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .warranties__right-arrow
+  margin-left: 10px
   margin-top: 25px
-  width: 12px
-  height: 12px
-  border-right: 2px solid #C4C4C4
-  border-top: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 20px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .warranties__right-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .warranty
   display: flex
@@ -483,6 +487,16 @@ html
     font-size: 1rem
     text-align: left
     margin-top: 1.16rem
+    height: 80px
+    overflow: hidden
+  p:after
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 40px
+    background: linear-gradient(180deg, transparent, #ffffff 50%)
   a
     display: block
     text-transform: uppercase
@@ -500,6 +514,9 @@ html
     transition: box-shadow 0.5s
   a:hover
     box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45)
+
+.warranty__bot__p
+  position: relative
 
 .questions
   background-color: #D2ECF7
@@ -535,16 +552,12 @@ html
     margin-right: 12px
 
 .question__arrow
-  width: 8px
-  height: 8px
-  border-bottom: 2px solid #008DCD
-  border-left: 2px solid #008DCD
-  box-sizing: border-box
-  transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 18px
+  color:  #008DCD
+  transition: color 0.5s
 
-.question__arrow:hover
-  border-color: #C4C4C4
+.question:hover .question__arrow
+  color: #C4C4C4
 
 .partners
   padding: 1.5rem 0
@@ -552,28 +565,20 @@ html
   align-items: center
 
 .partners__left-arrow
-  width: 12px
-  height: 12px
-  border-left: 2px solid #C4C4C4
-  border-bottom: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 18px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .partners__left-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .partners__right-arrow
-  width: 12px
-  height: 12px
-  border-right: 2px solid #C4C4C4
-  border-top: 2px solid #C4C4C4
-  box-sizing: border-box
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
-  transition: border-color 0.5s
+  font-size: 18px
+  color: #C4C4C4
+  transition: color 0.5s
 
 .partners__right-arrow:hover
-  border-color: $site-color
+  color: $site-color
 
 .partners__content
   display: flex
@@ -1183,12 +1188,10 @@ html
     font-size: 16px
 
   .review__left-arrow
-    width: 20px
-    height: 20px
+    font-size: 25px
 
   .review__right-arrow
-    width: 20px
-    height: 20px
+    font-size: 25px
 
   .advantages__content
     padding-top: 100px
