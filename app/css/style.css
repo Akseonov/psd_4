@@ -117,7 +117,7 @@ body {
     margin-top: 1.75rem;
     width: 278px;
     height: 142px; }
-  .description__content h1 {
+  .description__content h2 {
     font-family: "Myriad Pro Black";
     font-size: 1.5rem;
     text-align: left;
@@ -168,7 +168,7 @@ body {
 .responsibility__content {
   padding-top: 2rem;
   padding-bottom: 2rem; }
-  .responsibility__content h1 {
+  .responsibility__content h2 {
     font-family: "Myriad Pro Black";
     font-size: 1.5rem;
     text-align: left; }
@@ -195,7 +195,7 @@ body {
 
 .back-call__content {
   padding-top: 2.66rem; }
-  .back-call__content h1 {
+  .back-call__content h2 {
     font-family: "Myriad Pro Black";
     font-size: 2.33rem;
     color: #ffffff;
@@ -308,7 +308,7 @@ body {
 .reviews {
   padding: 1.75rem; }
 
-.reviews__content h1 {
+.reviews__content h2 {
   font-family: "Myriad Pro Bold";
   font-size: 28px;
   text-align: left;
@@ -386,7 +386,7 @@ body {
 .advantages__content {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem; }
-  .advantages__content h1 {
+  .advantages__content h2 {
     font-family: "Myriad Pro Black";
     font-size: 2.3rem;
     text-align: left; }
@@ -420,7 +420,7 @@ body {
 .warranties {
   padding: 1.75rem; }
 
-.warranties__content h1 {
+.warranties__content h2 {
   font-family: "Myriad Pro Bold";
   font-size: 28px;
   text-align: left; }
@@ -533,7 +533,7 @@ body {
   background-color: #D2ECF7;
   padding: 1.75rem; }
 
-.questions__content h1 {
+.questions__content h2 {
   font-family: "Myriad Pro Bold";
   font-size: 28px;
   text-align: left; }
@@ -803,7 +803,7 @@ body {
       margin-top: 1.75rem;
       width: 400px;
       height: 200px; }
-    .description__content h1 {
+    .description__content h2 {
       order: 0;
       font-family: "Myriad Pro Black";
       font-size: 36px;
@@ -858,7 +858,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    .responsibility__content h1 {
+    .responsibility__content h2 {
       font-family: "Myriad Pro Black";
       font-size: 28px;
       text-align: left;
@@ -877,7 +877,7 @@ body {
   .reviews {
     padding-top: 40px;
     padding-bottom: 40px; }
-  .reviews__content h1 {
+  .reviews__content h2 {
     font-family: "Myriad Pro Black";
     font-size: 36px;
     text-align: left;
@@ -894,7 +894,7 @@ body {
     font-family: "Myriad Pro Regular";
     font-size: 14px;
     text-align: left; }
-  .advantages__content h1 {
+  .advantages__content h2 {
     font-size: 36px; }
   .advantages__item p {
     font-size: 14px; }
@@ -908,7 +908,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px; }
-  .warranties__content h1 {
+  .warranties__content h2 {
     font-size: 36px; }
   .warranty {
     width: 220px;
@@ -950,7 +950,7 @@ body {
     display: none; }
   .warranties__right-arrow {
     display: none; }
-  .questions__content h1 {
+  .questions__content h2 {
     font-size: 36px; }
   .question {
     width: 652px;
@@ -1026,7 +1026,7 @@ body {
       margin-top: 60px;
       width: 660px;
       height: 336px; }
-    .description__content h1 {
+    .description__content h2 {
       position: absolute;
       left: 757px;
       top: 90px;
@@ -1072,7 +1072,7 @@ body {
       font-size: 30px; }
     .steps__block p {
       font-size: 20px; }
-  .responsibility__content h1 {
+  .responsibility__content h2 {
     width: 720px; }
   .responsibility__content a {
     width: 360px; }
@@ -1081,7 +1081,7 @@ body {
     padding-bottom: 39px; }
   .back-call__box {
     width: 740px; }
-    .back-call__box h1 {
+    .back-call__box h2 {
       font-size: 48px; }
     .back-call__box p {
       font-size: 24px; }
@@ -1098,7 +1098,7 @@ body {
       padding-bottom: 13.5px; }
   .reviews {
     padding-bottom: 70px; }
-  .reviews__content h1 {
+  .reviews__content h2 {
     font-size: 36px; }
   .review {
     width: 460px; }
@@ -1126,7 +1126,7 @@ body {
   .advantages__content {
     padding-top: 100px;
     padding-bottom: 100px; }
-    .advantages__content h1 {
+    .advantages__content h2 {
       font-size: 36px; }
   .advantages__item {
     margin-top: 25px; }
@@ -1142,7 +1142,7 @@ body {
   .warranties {
     padding-top: 80px;
     padding-bottom: 64px; }
-  .warranties__content h1 {
+  .warranties__content h2 {
     font-size: 36px; }
   .warranties__box {
     margin-bottom: 0;
